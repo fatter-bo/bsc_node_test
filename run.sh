@@ -12,4 +12,4 @@
 
 
 ## start a full node
-nohup ./geth_linux --config ./config.toml --datadir ./node  --cache 8000 --rpc.allow-unprotected-txs --txlookuplimit 0  --http --http.addr 0.0.0.0 --http.port 28545 --ws --ws.addr 0.0.0.0 --ws.port 28546 &
+nohup ./geth_linux  --verbosity=3 --syncmode fast --config ./config.toml --datadir ./node  --cache 8000 --rpc.allow-unprotected-txs --txlookuplimit 0  --http --http.addr 0.0.0.0 --http.port 28545 --ws --ws.addr 0.0.0.0 --ws.port 28546 &
