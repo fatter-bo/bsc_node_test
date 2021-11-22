@@ -12,4 +12,4 @@
 
 
 ## start a full node
-./geth_linux --config ./config.toml --datadir ./node  --cache 8000 --rpc.allow-unprotected-txs --txlookuplimit 0
+nohup ./geth_linux --config ./config.toml --datadir ./node  --cache 8000 --rpc.allow-unprotected-txs --txlookuplimit 0 &
