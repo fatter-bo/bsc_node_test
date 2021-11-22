@@ -7,3 +7,6 @@ unzip mainnet.zip
 
 ./geth_linux --datadir node init genesis.json
 
+#remove [Node.LogConfig] section from config.toml
+手工操作上一行配置
+
