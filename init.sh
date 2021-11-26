@@ -2,8 +2,9 @@
 
 wget  https://github.com/binance-chain/bsc/releases/download/v1.1.5/geth_linux
 
-wget https://github.com/binance-chain/bsc/releases/download/v1.1.5/mainnet.zip
-unzip mainnet.zip
+wget https://github.com/binance-chain/bsc/releases/download/v1.1.5/testnet.zip
+unzip testnet.zip
+
 
 ./geth_linux --datadir node init genesis.json
 
