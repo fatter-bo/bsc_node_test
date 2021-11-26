@@ -12,4 +12,4 @@
 
 
 ## start a full node 6G内存
-nohup ./geth_linux  --verbosity=3 --syncmode fast --diffsync --config ./config.toml --datadir ${PWD}/node  --cache 6144 --rpc.allow-unprotected-txs --txlookuplimit 0  --http --http.addr 0.0.0.0 --http.port 38545 --ws --ws.addr 0.0.0.0 --ws.port 38546 &
+nohup ./geth_linux  --verbosity=3 --syncmode fast --diffsync --config ./config.toml --datadir ${PWD}/node  --cache 6144 --rpc.allow-unprotected-txs --txlookuplimit 0  --http --http.addr 0.0.0.0 --http.port 18545 --ws --ws.addr 0.0.0.0 --ws.port 18546 &
